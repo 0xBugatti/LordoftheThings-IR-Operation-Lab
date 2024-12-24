@@ -2,6 +2,7 @@
 - The **Zeus trojan virus** was first created in 2007, when hackers in Eastern Europe used it to target the United States Department of Transportation. While it’s hard to say for certain who created it, the attack really took off when its malicious code became public in 2011. Since then, it has spawned dozens of variants that have kept internet security experts and law enforcement busy.
   There are two common attack vectors that open Windows computers to Zeus trojan malware attacks. Drive-by downloads require a user to visit a website that has the backdoor trojan code on it. They then download files into the user’s computer without the user’s knowledge. Modern browsers such as Google Chrome usually block these downloads and the sites they are found on, but hackers are constantly implementing new workarounds for this. Meanwhile, older web browsers like Internet Explorer may not block drive-by downloads at all. Zeus’s other main mode of infection is through phishing attacks where users think they are downloading benign software from links in a phishing email or a post on social media.
 - The myth of **Typhon vs. Zeus** is a dramatic and intense episode in Greek mythology, often regarded as the climax of the **Titanomachy**, or the war between the Olympian gods and their adversaries. This myth exemplifies the ultimate struggle for cosmic order, as Typhon, a chaotic and monstrous force, challenges Zeus, the king of the gods, for supremacy over the universe.
+![](Imgs/TyphonvsZeus.png)
 
 # Lab Implementation
 
