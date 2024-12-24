@@ -1,0 +1,43 @@
+/*
+   YARA Rule Set
+   Author: yarGen Rule Generator
+   Date: 2024-12-21
+   Identifier: Zeus
+   Reference: https://github.com/Neo23x0/yarGen
+*/
+
+/* Rule Set ----------------------------------------------------------------- */
+
+rule invoice_2318362983713_823931342io_pdf {
+   meta:
+      description = "Zeus - file invoice_2318362983713_823931342io.pdf.exe"
+      author = "yarGen Rule Generator"
+      reference = "https://github.com/Neo23x0/yarGen"
+      date = "2024-12-21"
+      hash1 = "69e966e730557fde8fd84317cdef1ece00a8bb3470c0b58f3231e170168af169"
+   strings:
+      $s1 = "ejDmZKid5htD0UB[gZTHJVrLlTaTBBsBS18pEuDJBuMks{0H0zRNleRt2kh8S:QPqP/2v2JFYWjpubc,vQKhJvYCDZsyJKTWY,B6xyzRzzHY6Ezu44u6U6LOL[dhqVMn" ascii
+      $s2 = "corect.com" fullword ascii
+      $s3 = "USER32.GetShellWindow" fullword ascii
+      $s4 = "KERNEL32.GetThreadPriority" fullword ascii
+      $s5 = "KERNEL32.SystemTimeToFileTime" fullword ascii
+      $s6 = "KERNEL32.CreateIoCompletionPort" fullword ascii
+      $s7 = "USER32.GetKeyNameTextA" fullword ascii
+      $s8 = "KERNEL32.GetShortPathNameA" fullword ascii
+      $s9 = "kqKDSPX2HCYOP/CYRnffTI[QZT{BN8Tafn,Jg2Ko[0X+i1oOknPp4ubEZniy2Q:OfQpxex4frsHQLes46ehHemEMxU9LPw{6VUKMC06pOw6cLW395ZdQdqxqDI6UQu7W" ascii
+      $s10 = "KERNEL32.GetWindowsDirectoryA" fullword ascii
+      $s11 = "KERNEL32.GetStartupInfoW" fullword ascii
+      $s12 = "Dumpcotsavo" fullword ascii
+      $s13 = "9tc34LSgjT7ksJmvD1NxsNewhlynXj97U7O2OIsjnaNv0Vglp5FzexmnW7uVORnovysoxu0sKAIn0NYuxRcwu81fYFOEugVLBVJ+3jUAl/w2{hHZhK9leprOkc:ehsEO" ascii
+      $s14 = "IKe397ub8CXtoFKc4rpl7t{DViecb2T7YM1yKaiMRmyCfs8Q:m[+PtURL3Myem6ZTR6kTSYjeph4xg1wlgrno+H0p81Wmn78yBOY76uEWgJRfJUWBsYj9UhYSyka,41W" ascii
+      $s15 = "gi4HzEwf0b9TQHjtEoOXk3TgcahTZe3sCGwEOg5iVBZz3WW7wkiNIMrnH0ZuSagxOTBaU93fuzD4BD7yiAU9MT6yUdT+fdoMjVpOOlOGZZVdXPV7cfpzMrUnxewB5eYr" ascii
+      $s16 = "        <requestedExecutionLevel level='asInvoker' uiAccess=\"false\"/>" fullword ascii
+      $s17 = "USER32.GetUpdateRgn" fullword ascii
+      $s18 = "USER32.GetMonitorInfoW" fullword ascii
+      $s19 = "fvifsB4KEyDcEPd9ma,mZmhSNAXYsZEbZZclOdUQCS6p8uEip/hwoawNRzsRy6G5JFIyRhp/pLoGOKTt68dv6HMz:ofAI7VI7o8lZxQpqKq51M3U,Nsk0Fy1rZVIdPKI" ascii
+      $s20 = "jqiXzmPzIU8V590Xs8,5xbUM7YgXcpsjiizfRlhaQhH/pYXxG8LJqjhVskFt34KOlaJG9KCGjT,brQrWn/xuwTW3xm,CyP60F936QWqfEhEgN1gM830gOtrTb6hbP7ir" ascii
+   condition:
+      uint16(0) == 0x5a4d and filesize < 700KB and
+      8 of them
+}
+

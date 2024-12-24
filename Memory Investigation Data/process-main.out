@@ -1,0 +1,42 @@
+Volatility 3 Framework 2.8.0
+
+PID	Process	Args
+
+4	System	Required memory at 0x10 is not valid (process exited?)
+596	smss.exe	\SystemRoot\System32\smss.exe
+668	csrss.exe	C:\WINDOWS\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,3072,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16
+692	winlogon.exe	winlogon.exe
+744	services.exe	C:\WINDOWS\system32\services.exe
+756	lsass.exe	C:\WINDOWS\system32\lsass.exe
+912	svchost.exe	C:\WINDOWS\system32\svchost -k DcomLaunch
+992	svchost.exe	C:\WINDOWS\system32\svchost -k rpcss
+1084	svchost.exe	C:\WINDOWS\System32\svchost.exe -k netsvcs
+1140	svchost.exe	C:\WINDOWS\system32\svchost.exe -k NetworkService
+1192	svchost.exe	C:\WINDOWS\system32\svchost.exe -k LocalService
+1436	iscsiexe.exe	C:\WINDOWS\System32\iscsiexe.exe
+1616	spoolsv.exe	C:\WINDOWS\system32\spoolsv.exe
+1752	explorer.exe	C:\WINDOWS\Explorer.EXE
+1900	SharedIntApp.ex	"C:\Program Files\Parallels\Parallels Tools\SIA\SharedIntApp.exe" /start
+1908	prl_cc.exe	"C:\Program Files\Parallels\Parallels Tools\prl_cc.exe" 
+1936	jusched.exe	"C:\Program Files\Java\jre6\bin\jusched.exe" 
+364	svchost.exe	Required memory at 0x20044 is inaccessible (swapped)
+472	jqs.exe	"C:\Program Files\Java\jre6\bin\jqs.exe" -service -config "C:\Program Files\Java\jre6\lib\deploy\jqs\jqs.conf"
+488	sqlservr.exe	"c:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Binn\sqlservr.exe" -sSQLEXPRESS
+572	coherence.exe	Required memory at 0x20044 is inaccessible (swapped)
+436	prl_tools_servi	Required memory at 0x20044 is inaccessible (swapped)
+632	prl_tools.exe	"C:\Program Files\Parallels\Parallels Tools\Services\prl_tools.exe"
+660	sqlwriter.exe	"c:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe"
+2180	wscntfy.exe	C:\WINDOWS\system32\wscntfy.exe
+2588	alg.exe	Required memory at 0x20044 is inaccessible (swapped)
+940	wuauclt.exe	"C:\WINDOWS\system32\wuauclt.exe"
+2972	ImmunityDebugge	"C:\Program Files\Immunity Inc\Immunity Debugger\ImmunityDebugger.exe" "C:\Documents and Settings\Administrator\Desktop\nifek_locked.exe"
+2204	nifek_locked.ex	"C:\Documents and Settings\Administrator\Desktop\nifek_locked.exe"
+1932	ImmunityDebugge	"C:\Program Files\Immunity Inc\Immunity Debugger\ImmunityDebugger.exe" "C:\Documents and Settings\Administrator\Desktop\vaelh.exe"
+952	vaelh.exe	"C:\Documents and Settings\Administrator\Desktop\vaelh.exe"
+3788	ImmunityDebugge	"C:\Program Files\Immunity Inc\Immunity Debugger\ImmunityDebugger.exe" "C:\Documents and Settings\Administrator\Desktop\anaxu.exe"
+3508	anaxu.exe	"C:\Documents and Settings\Administrator\Desktop\anaxu.exe"
+3984	wuauclt.exe	"C:\WINDOWS\system32\wuauclt.exe" /RunStoreAsComServer Local\[43c]SUSDS82f0c54ad7b58b46a717b19ec999e73f
+2404	ImmunityDebugge	"C:\Program Files\Immunity Inc\Immunity Debugger\ImmunityDebugger.exe" "C:\Documents and Settings\Administrator\Desktop\b98679df6defbb3dc0e12463880c9dd7.exe"
+3772	b98679df6defbb3	"C:\Documents and Settings\Administrator\Desktop\b98679df6defbb3dc0e12463880c9dd7.exe"
+3276	ihah.exe	"C:\Documents and Settings\Administrator\Application Data\Obyt\ihah.exe"
+3768	rundll32.exe	C:\WINDOWS\System32\rundll32.exe C:\WINDOWS\System32\firewall.cpl,ShowNotificationDialog /configure "C:\WINDOWS\explorer.exe"

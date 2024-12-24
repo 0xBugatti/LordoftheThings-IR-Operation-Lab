@@ -1,0 +1,638 @@
+"Account_Domain","Account_Name","Analysis_symbol","Authentication_Package","Cab_Guid","Cab_Id","Caller_Workstation",CommandLine,Company,ComputerName,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,"Elevated_Token",EventCode,EventType,"Event_Name","Exception_code","Fault_offset","Faulting_application_path","Faulting_application_start_time","Faulting_module_name","Faulting_module_path","Faulting_package_full_name","Faulting_process_id",FileVersion,"Group_Domain","Group_Name","Hashed_bucket",Hashes,Image,"Impersonation_Level",Initiated,IntegrityLevel,"Key_Length",Keywords,"Linked_Logon_ID",LogName,LogonGuid,LogonId,"Logon_GUID","Logon_ID","Logon_Process","Logon_Type",Message,"Network_Account_Domain","Network_Account_Name",NewThreadId,OpCode,OriginalFileName,P1,P10,P2,P3,P4,P5,P6,P7,P8,P9,"Package_Name__NTLM_only_",ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,PreviousCreationUtcTime,Privileges,ProcessGuid,ProcessId,"Process_ID","Process_Name",Product,Protocol,QueryName,QueryResults,QueryStatus,"Rechecking_for_solution",RecordNumber,"Report_Id","Report_Status",Response,"Restricted_Admin_Mode",RuleName,"Security_ID",Sid,SidType,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourceName,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,"Source_Network_Address","Source_Port",StartAddress,StartFunction,StartModule,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,"Target_Account_Domain","Target_Account_Name",TaskCategory,TerminalSessionId,"Transited_Services",Type,User,UtcTime,"Virtual_Account","Workstation_Name","_raw","_time","date_hour","date_mday","date_minute","date_month","date_second","date_wday","date_year","date_zone",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group",timeendpos,timestartpos
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,,,,,,,,5,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Process terminated:
+RuleName: -
+UtcTime: 2024-12-22 02:33:21.198
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,,,,,,1779,,,,,"-",,"S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,,,,,,,,,"Process terminated (rule: ProcessTerminate)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:33:21.198",,,"12/22/2024 02:33:21 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=5
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1779
+Keywords=None
+TaskCategory=Process terminated (rule: ProcessTerminate)
+OpCode=Info
+Message=Process terminated:
+RuleName: -
+UtcTime: 2024-12-22 02:33:21.198
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student","2024-12-21T21:33:21.000-05:00",,,,,,,,,,COMP10,main,21,"//_::_=--/===..==---==--====__(:_)==_:\r:_-\r:_--_::","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.578
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53807
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1770,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53807,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.578",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1770
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.578
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53807
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.574
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53806
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1769,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53806,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.574",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1769
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.574
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53806
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.574
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53805
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1768,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53805,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.574",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1768
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.574
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53805
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.574
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53804
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1767,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53804,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.574",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1767
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.574
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53804
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.573
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53803
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1766,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53803,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.573",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1766
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.573
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53803
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.567
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53802
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1765,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53802,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.567",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1765
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.567
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53802
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"-","85.114.128.127",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.563
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53801
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1764,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53801,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.563",,,"12/22/2024 02:33:13 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1764
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.563
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53801
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 85.114.128.127
+DestinationHostname: -
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:13.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,"dns.google","8.8.8.8",false,53,domain,,,3,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,true,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.505
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53800
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 8.8.8.8
+DestinationHostname: dns.google
+DestinationPort: 53
+DestinationPortName: domain",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,udp,,,,,1763,,,,,Usermode,,"S-1-5-18",0,"COMP10.RedAD19.Lab",,"192.168.1.10",false,"Microsoft-Windows-Sysmon",53800,"-",,,,,,,,,,,,,,,,,"Network connection detected (rule: NetworkConnect)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:31:32.505",,,"12/22/2024 02:33:12 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=3
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1763
+Keywords=None
+TaskCategory=Network connection detected (rule: NetworkConnect)
+OpCode=Info
+Message=Network connection detected:
+RuleName: Usermode
+UtcTime: 2024-12-22 02:31:32.505
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student
+Protocol: udp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.10
+SourceHostname: COMP10.RedAD19.Lab
+SourcePort: 53800
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 8.8.8.8
+DestinationHostname: dns.google
+DestinationPort: 53
+DestinationPortName: domain","2024-12-21T21:33:12.000-05:00",,,,,,,,,,COMP10,main,33,"//_::_=--/===..==---==--====___(:_)==__:\r:_\r:_--_:","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab","2024-12-22 02:33:11.266",,,,,,,,,,11,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,,,,,,1762,,,,,EXE,,"S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe",,,,,,,,"File created (rule: FileCreate)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:33:11.266",,,"12/22/2024 02:33:11 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1762
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student","2024-12-21T21:33:11.000-05:00",,,,,,,,,,COMP10,main,23,"//_::_=--/===..==---==--====__(:_)==_:\r:_\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab","2024-12-22 02:33:11.266",,,,,,,,,,11,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"File created:
+RuleName: DLL
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\msimg32.dll
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,,,,,,1761,,,,,DLL,,"S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"C:\Users\student\AppData\Local\Temp\msimg32.dll",,,,,,,,"File created (rule: FileCreate)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:33:11.266",,,"12/22/2024 02:33:11 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1761
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: DLL
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\msimg32.dll
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student","2024-12-21T21:33:11.000-05:00",,,,,,,,,,COMP10,main,23,"//_::_=--/===..==---==--====__(:_)==_:\r:_\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab",,,,,,,,,"""C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe"" >",,13,"4
+SetValue",,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetObject: HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update
+Details: ""C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe"" >
+User: COMP10\student",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,,,,,,1760,,,,,"T1060,RunKey",,"S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,,,"HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update",,,,,,"Registry value set (rule: RegistryEvent)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:33:11.266",,,"12/22/2024 02:33:11 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=13
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1760
+Keywords=None
+TaskCategory=Registry value set (rule: RegistryEvent)
+OpCode=Info
+Message=Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetObject: HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update
+Details: ""C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe"" >
+User: COMP10\student","2024-12-21T21:33:11.000-05:00",,,,,,,,,,COMP10,main,24,"//_::_=--/===..==---==--====___(:_)==__:\r:_,\r:_\r:_","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,,,"COMP10.RedAD19.Lab","2024-12-22 02:33:11.266",,,,,,,,,,11,4,,,,,,,,,,,,,,,"C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,,,,None,,"Microsoft-Windows-Sysmon/Operational",,,,,,,"File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",,,,Info,,,,,,,,,,,,,,,,,,,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,,,,,,,1759,,,,,EXE,,"S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,"C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe",,,,,,,,"File created (rule: FileCreate)",,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:33:11.266",,,"12/22/2024 02:33:11 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=11
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1759
+Keywords=None
+TaskCategory=File created (rule: FileCreate)
+OpCode=Info
+Message=File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student","2024-12-21T21:33:11.000-05:00",,,,,,,,,,COMP10,main,23,"//_::_=--/===..==---==--====__(:_)==_:\r:_\r:_--_::.","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,
+,,,,,,,"""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe""","-","COMP10.RedAD19.Lab",,"C:\Users\student\Downloads\","-",,,,,,,,1,4,,,,,,,,,,"-",,,,"MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",,,Medium,,None,,"Microsoft-Windows-Sysmon/Operational","{0fd50764-b8fd-6766-5879-090000000000}",0x97958,,,,,"Process Create:
+RuleName: -
+UtcTime: 2024-12-22 02:33:10.527
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe"" 
+CurrentDirectory: C:\Users\student\Downloads\
+User: COMP10\student
+LogonGuid: {0fd50764-b8fd-6766-5879-090000000000}
+LogonId: 0x97958
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD
+ParentProcessGuid: {0fd50764-b8fe-6766-f500-000000004900}
+ParentProcessId: 2376
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: COMP10\student",,,,Info,"-",,,,,,,,,,,,"C:\WINDOWS\Explorer.EXE","C:\Windows\explorer.exe","{0fd50764-b8fe-6766-f500-000000004900}",2376,"COMP10\student",,,"{0fd50764-7a66-6767-b31a-000000004900}",1756,,,"-",,,,,,1756,,,,,"-",,"S-1-5-18",0,,,,,"Microsoft-Windows-Sysmon",,,,,,,,,,,,,,,,,,,"Process Create (rule: ProcessCreate)",1,,Information,"NOT_TRANSLATED
+COMP10\student","2024-12-22 02:33:10.527",,,"12/22/2024 02:33:10 AM
+LogName=Microsoft-Windows-Sysmon/Operational
+EventCode=1
+EventType=4
+ComputerName=COMP10.RedAD19.Lab
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+SourceName=Microsoft-Windows-Sysmon
+Type=Information
+RecordNumber=1756
+Keywords=None
+TaskCategory=Process Create (rule: ProcessCreate)
+OpCode=Info
+Message=Process Create:
+RuleName: -
+UtcTime: 2024-12-22 02:33:10.527
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe"" 
+CurrentDirectory: C:\Users\student\Downloads\
+User: COMP10\student
+LogonGuid: {0fd50764-b8fd-6766-5879-090000000000}
+LogonId: 0x97958
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD
+ParentProcessGuid: {0fd50764-b8fe-6766-f500-000000004900}
+ParentProcessId: 2376
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: COMP10\student","2024-12-21T21:33:10.000-05:00",,,,,,,,,,COMP10,main,38,"//_::_=--/===..==---==--====__(:_)==_:\r:_-\r:_--_::","WinEventLog:Microsoft-Windows-Sysmon/Operational","WinEventLog:Microsoft-Windows-Sysmon/Operational",kali,,,

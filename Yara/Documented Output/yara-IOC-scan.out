@@ -1,0 +1,11 @@
+Volatility 3 Framework 2.8.0
+
+Offset	Rule	Component	Value
+
+0x8213df14	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s1	77 73 63 6e 74 66 79 2e 65 78 65
+0x8223c194	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s2	76 61 65 6c 68 2e 65 78 65
+0x8219e73c	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s3	61 6e 61 78 75 2e 65 78 65
+0x8205df14	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s4	77 75 61 75 63 6c 74 2e 65 78 65
+0x820ee6f4	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s5	70 72 6c 5f 63 63 2e 65 78 65
+0x8207bf14	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s6	6e 69 66 65 6b 5f 6c 6f 63 6b 65 64 2e 65 78
+0x821aa95c	_dlls_process_main_malware_threads_process_privs_handels_Process_Tree_23	$s7	73 71 6c 77 72 69 74 65 72 2e 65 78 65

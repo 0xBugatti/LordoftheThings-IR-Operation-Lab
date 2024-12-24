@@ -1,0 +1,29 @@
+TaskCategory,host,ComputerName,Image,ProcessId,TargetFilename,TargetObject,MD5
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\system32\svchost.exe,8032,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store\C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\system32\svchost.exe,8032,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store\C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,
+Process terminated (rule: ProcessTerminate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,,,
+Process Create (rule: ProcessCreate),COMP10,COMP10.RedAD19.Lab,C:\Windows\SysWOW64\cmd.exe,5720,,,4943BA1A9B41D69643F69685E35B2943
+Process Create (rule: ProcessCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe,7816,,,2FF9B590342C62748885D459D082295F
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe,,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,C:\Users\student\AppData\Local\Temp\msimg32.dll,,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe,,
+CreateRemoteThread detected (rule: CreateRemoteThread),COMP10,COMP10.RedAD19.Lab,,,,,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\system32\svchost.exe,8032,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store\C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,
+Process Create (rule: ProcessCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,,,EA039A854D20D7734C5ADD48F1A51C34
+File creation time changed (rule: FileCreateTime),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\Explorer.EXE,2376,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\Explorer.EXE,2376,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe,,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,C:\Users\student\AppData\Local\Temp\msimg32.dll,,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe,,
+CreateRemoteThread detected (rule: CreateRemoteThread),COMP10,COMP10.RedAD19.Lab,,,,,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\system32\svchost.exe,8032,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store\C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,
+Process Create (rule: ProcessCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,,,EA039A854D20D7734C5ADD48F1A51C34
+File creation time changed (rule: FileCreateTime),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\Explorer.EXE,2376,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,,
+File created (rule: FileCreate),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\Explorer.EXE,2376,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\system32\svchost.exe,8032,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store\C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,
+Registry value set (rule: RegistryEvent),COMP10,COMP10.RedAD19.Lab,C:\WINDOWS\system32\svchost.exe,8032,,HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store\C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,
+Process terminated (rule: ProcessTerminate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe,1756,,,
+Process Create (rule: ProcessCreate),COMP10,COMP10.RedAD19.Lab,C:\Windows\SysWOW64\cmd.exe,5720,,,4943BA1A9B41D69643F69685E35B2943
+Process Create (rule: ProcessCreate),COMP10,COMP10.RedAD19.Lab,C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe,7816,,,2FF9B590342C62748885D459D082295F

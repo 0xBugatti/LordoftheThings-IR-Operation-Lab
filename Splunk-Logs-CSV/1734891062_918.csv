@@ -1,0 +1,17 @@
+TaskCategory,Protocol,host,ComputerName,Image,SourceIp,SourcePort,DestinationIp,DestinationPort
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53807,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53806,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53805,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53804,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53803,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53802,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53801,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53800,"8.8.8.8",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53807,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53806,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53805,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53804,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53803,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53802,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53801,"85.114.128.127",53
+"Network connection detected (rule: NetworkConnect)",udp,COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe","192.168.1.10",53800,"8.8.8.8",53

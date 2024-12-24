@@ -1,0 +1,5 @@
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"Fake Flash Player Update Request"; http.uri; content:"/get/flashplayer/update/current/install/install_all_win_cab_64_ax_sgn.z"; http.method; content:"GET"; nocase; sid:1000001; rev:1;)
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"Suspicious Flash Player"; http.user_agent; content:"Flash Player Seed/3.0"; nocase; sid:1000002; rev:1;)
+alert udp any any -> 85.114.128.127 any (msg:"Malicious IP detected in UDP traffic"; sid:100004; rev:1; classtype:bad-unknown; metadata:service udp; reference:url,example.com; threshold: type limit,track by_src,count 1,seconds 60;)
+alert tcp $HOME_NET any -> $HOME_NET any (msg:"Potential Internal Port Scan Detected"; flags:S; ; sid:1000002; rev:1;)
+alert udp $HOME_NET any -> 85.114.128.127 53 (msg:"Alert: Suspicious UDP traffic to malicious IP 85.114.128.127 on port 53"; flow:to_server; sid:100003; rev:1; classtype:bad-unknown; reference:url,example.com/incident-details; priority:2;)

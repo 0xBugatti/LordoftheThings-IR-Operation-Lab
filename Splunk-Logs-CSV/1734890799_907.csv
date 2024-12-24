@@ -1,0 +1,137 @@
+TaskCategory,Message,host,ComputerName,Image,ProcessId,CommandLine,ParentProcessId,ParentCommandLine,Hashes,TargetFilename,TargetObject
+"Process terminated (rule: ProcessTerminate)","Process terminated:
+RuleName: -
+UtcTime: 2024-12-22 02:33:21.198
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,,
+"File created (rule: FileCreate)","File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,"C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe",
+"File created (rule: FileCreate)","File created:
+RuleName: DLL
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\msimg32.dll
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,"C:\Users\student\AppData\Local\Temp\msimg32.dll",
+"Registry value set (rule: RegistryEvent)","Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetObject: HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update
+Details: ""C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe"" >
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,,"HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update"
+"File created (rule: FileCreate)","File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,"C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe",
+"Process Create (rule: ProcessCreate)","Process Create:
+RuleName: -
+UtcTime: 2024-12-22 02:33:10.527
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe"" 
+CurrentDirectory: C:\Users\student\Downloads\
+User: COMP10\student
+LogonGuid: {0fd50764-b8fd-6766-5879-090000000000}
+LogonId: 0x97958
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD
+ParentProcessGuid: {0fd50764-b8fe-6766-f500-000000004900}
+ParentProcessId: 2376
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,"""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe""",2376,"C:\WINDOWS\Explorer.EXE","MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD",,
+"Process terminated (rule: ProcessTerminate)","Process terminated:
+RuleName: -
+UtcTime: 2024-12-22 02:33:21.198
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,,
+"File created (rule: FileCreate)","File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,"C:\Users\student\AppData\Local\Temp\InstallFlashPlayer.exe",
+"File created (rule: FileCreate)","File created:
+RuleName: DLL
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Temp\msimg32.dll
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,"C:\Users\student\AppData\Local\Temp\msimg32.dll",
+"Registry value set (rule: RegistryEvent)","Registry value set:
+RuleName: T1060,RunKey
+EventType: SetValue
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetObject: HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update
+Details: ""C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe"" >
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,,"HKU\S-1-5-21-1552841522-3835366585-4197357653-1001\Software\Microsoft\Windows\CurrentVersion\Run\Google Update"
+"File created (rule: FileCreate)","File created:
+RuleName: EXE
+UtcTime: 2024-12-22 02:33:11.266
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+TargetFilename: C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe
+CreationUtcTime: 2024-12-22 02:33:11.266
+User: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,,,,,"C:\Users\student\AppData\Local\Google\Desktop\Install\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\❤≸⋙\Ⱒ☠⍨\‮ﯹ๛\{3be6f3ea-f161-fd6c-0169-b17b29e868a5}\GoogleUpdate.exe",
+"Process Create (rule: ProcessCreate)","Process Create:
+RuleName: -
+UtcTime: 2024-12-22 02:33:10.527
+ProcessGuid: {0fd50764-7a66-6767-b31a-000000004900}
+ProcessId: 1756
+Image: C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe"" 
+CurrentDirectory: C:\Users\student\Downloads\
+User: COMP10\student
+LogonGuid: {0fd50764-b8fd-6766-5879-090000000000}
+LogonId: 0x97958
+TerminalSessionId: 1
+IntegrityLevel: Medium
+Hashes: MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD
+ParentProcessGuid: {0fd50764-b8fe-6766-f500-000000004900}
+ParentProcessId: 2376
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: COMP10\student",COMP10,"COMP10.RedAD19.Lab","C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe",1756,"""C:\Users\student\Downloads\invoice_2318362983713_823931342io.pdf.exe""",2376,"C:\WINDOWS\Explorer.EXE","MD5=EA039A854D20D7734C5ADD48F1A51C34,SHA256=69E966E730557FDE8FD84317CDEF1ECE00A8BB3470C0B58F3231E170168AF169,IMPHASH=308FE2649C586660C71BC787D65E54FD",,
