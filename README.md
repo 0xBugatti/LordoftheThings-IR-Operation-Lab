@@ -77,9 +77,10 @@
 		  ![](Imgs/Pastedimage20241222044204.png)
 		  ![](Imgs/Pastedimage20241222044128.png)
 
-- ### Combine & Run All
-	Using **Services**
+- ### Combine & Run All Using **Services**
 	![](Imgs/Pastedimage20241223194411.png)
+
+
 - ### Saving Daily Secure BackUp
 	All is Done Now and All Detection Works 
 	**Taking Snapshot**
